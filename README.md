@@ -23,5 +23,5 @@ Now we will search through Reference Number in CSV2.
 Now we will search through Jouurnal Date in CSV2.
 ![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/2882bd55-232f-41bd-828b-2647e99e65f7)
 ![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/fc3254e5-7998-440d-81c6-126851894d21)
-Similarly one entry from each row can be used to search the whole row from both the databases. 
+Similarly one entry alongwith column name from each row can be used to search the whole row from both the databases. 
 
