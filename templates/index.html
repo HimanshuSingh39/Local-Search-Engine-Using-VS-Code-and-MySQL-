@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Search Engine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        label {
+            font-weight: bold;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Local Search Engine</h1>
+        <form action="/search" method="GET">
+            <div class="form-group">
+                <label for="query1">Enter your search query for CSV1:</label>
+                <input type="text" id="query1" name="query" class="form-control" placeholder="Search CSV1...">
+            </div>
+            <div class="form-group">
+                <label for="column1">Search Column:</label>
+                <select id="column1" name="column" class="form-control">
+                    <option value="Date_of_Encashment">Date of Encashment</option>
+                    <option value="Name_of_the_Political_Party">Name of the Political Party</option>
+                    <option value="Account_no_of_Political_Party">Account no. of Political Party</option>
+                    <option value="Prefix">Prefix</option>
+                    <option value="Bond_Number">Bond Number</option>
+                    <option value="Denominations">Denominations</option>
+                    <option value="Pay_Branch_Code">Pay Branch Code</option>
+                    <option value="Pay_Teller">Pay Teller</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Search CSV1</button>
+        </form>
+        <hr>
+        <form action="/search2" method="GET">
+            <div class="form-group">
+                <label for="query2">Enter your search query for CSV2:</label>
+                <input type="text" id="query2" name="query" class="form-control" placeholder="Search CSV2...">
+            </div>
+            <div class="form-group">
+                <label for="column2">Search Column:</label>
+                <select id="column2" name="column" class="form-control">
+                    <option value="Reference No (URN)">Reference No (URN)</option>
+                    <option value="Journal Date">Journal Date</option>
+                    <option value="Date of Purchase">Date of Purchase</option>
+                    <option value="Date of Expiry">Date of Expiry</option>
+                    <option value="Name of the Purchaser">Name of the Purchaser</option>
+                    <option value="Prefix">Prefix</option>
+                    <option value="Bond Number">Bond Number</option>
+                    <option value="Denominations">Denominations</option>
+                    <option value="Issue Branch Code">Issue Branch Code</option>
+                    <option value="Issue Teller">Issue Teller</option>
+                    <option value="Status">Status</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Search CSV2</button>
+        </form>
+    </div>
+</body>
+</html>
