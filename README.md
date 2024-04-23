@@ -1,4 +1,14 @@
 # Local-Search-Engine-Using-VS-Code-and-MySQL-
+First I converted the pdf files given into csv files whose code had been already upploaded with the name pdf_csv.py.
+Then I created a new database (named dcc_a4) in MySQL Workbench by clicking the below mentioned button.
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/6c7d3423-ddb9-4d64-bc16-5625474aa90e)
+Then I imported the tables from csv files using the option in below image:
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/9509a03a-bab8-40b2-b484-ec14de690828)
+Then my tables got imported in MySQL Workbench.
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/5eb7e65c-342a-4683-9bf8-da4ead854547)
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/691c891b-916c-45e7-9bd6-39470ea11ebd)
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/71d000b1-4dc3-4add-b68b-dbad7cfbd804)
+
 My Front End of website looks as shown below.
 ![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/a27d5f09-e111-417d-a95d-bfd4efbc7e74)
 
