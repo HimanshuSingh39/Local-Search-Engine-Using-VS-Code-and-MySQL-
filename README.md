@@ -17,5 +17,11 @@ Similarly we can search in CSV2 through name of the purchaser.
 Now we will search through prefix in CSV1.
 ![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/148a19da-0b7c-47b7-9380-8b84e90c6e24)
 ![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/8e69e653-af0b-4451-ae5d-854aeb92b803)
-
+Now we will search through Reference Number in CSV2.
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/8c87bf54-e234-41a0-8d4f-c680d917a71d)
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/4abd5104-978f-4658-9a28-c7a4e94a5d62)
+Now we will search through Jouurnal Date in CSV2.
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/2882bd55-232f-41bd-828b-2647e99e65f7)
+![image](https://github.com/HimanshuSingh39/Local-Search-Engine-Using-VS-Code-and-MySQL-/assets/167898061/fc3254e5-7998-440d-81c6-126851894d21)
+Similarly one entry from each row can be used to search the whole row from both the databases. 
 
